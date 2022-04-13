@@ -1,10 +1,7 @@
 from datetime import datetime, timedelta
-from email import header
-from lib2to3.pgen2 import token
+
 import logging
-from operator import ifloordiv
-from time import strftime
-from turtle import update
+
 from xmlrpc.client import DateTime
 from dotenv import load_dotenv
 import os
